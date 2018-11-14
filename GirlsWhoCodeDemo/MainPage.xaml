@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GirlsWhoCodeDemo" x:Class="GirlsWhoCodeDemo.MainPage">
+
+    <StackLayout Margin="10,10,10,10">
+        <Frame BackgroundColor="Teal" 
+               WidthRequest="200" 
+               HeightRequest="200"
+               x:Name="box"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center">
+            <StackLayout>
+                <Label Text="Girls who code!" FontSize="Large" TextColor="White"/>
+            </StackLayout>
+        </Frame>
+        <Button  BackgroundColor="Blue" Text="Move" 
+                 HorizontalOptions="Fill" VerticalOptions="EndAndExpand"
+                 TextColor="White"
+                 Clicked="Handle_Clicked"/>
+    </StackLayout>
+</ContentPage>
